@@ -1,0 +1,10 @@
+{
+  "panel": "f",
+  "status": "recomputed_from_rows",
+  "evaluable_assays": 42,
+  "primary_auroc_range": [
+    0.5729052159187982,
+    0.8851595201766983
+  ],
+  "source_figure_or_summary_values_used": false
+}

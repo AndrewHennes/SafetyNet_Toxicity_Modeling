@@ -1,0 +1,20 @@
+{
+  "computed_species_totals": {
+    "AB": 228,
+    "EC": 216,
+    "KP": 191,
+    "PA": 111
+  },
+  "artwork_totals_reference_only": {
+    "AB": 229,
+    "EC": 218,
+    "KP": 192,
+    "PA": 111
+  },
+  "matched_artwork_intersections": 12,
+  "panel": "b",
+  "status": "recomputed_from_assay_measurements",
+  "shared_validation": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/shared/validation.json",
+  "cohort": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/shared/analysis_cohort.csv",
+  "source_sha256": "8e3771c13037061d233f3a650eb4db0300d622e0ec9be2ffd88ab0d5abd42d5c"
+}

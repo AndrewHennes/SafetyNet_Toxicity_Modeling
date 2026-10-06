@@ -1,0 +1,3 @@
+dataset,comparison,max_absolute_difference,mean_absolute_difference
+ecbd_restricted,stored max minus max of task means,0.0,0.0
+ecbd_merged,stored max minus max of task means,0.0,0.0

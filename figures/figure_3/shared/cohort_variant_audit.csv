@@ -1,0 +1,35 @@
+variant,source,organism,rule,n,nontoxic,toxic,auroc,average_precision
+ecbd_supplied_binary_hit,ecbd,e_coli,Existing HepG2 binary labels; no novelty exclusion,62,41,21,0.8315911730545877,0.7755073163904698
+ecbd_growth_inhibition_gt_50,ecbd,e_coli,Existing HepG2 binary labels; no novelty exclusion,78,54,24,0.8341049382716049,0.7201773223599848
+ecbd_supplied_binary_hit,ecbd,k_pneumoniae,Existing HepG2 binary labels; no novelty exclusion,110,85,25,0.8870588235294117,0.8072695008964137
+ecbd_growth_inhibition_gt_50,ecbd,k_pneumoniae,Existing HepG2 binary labels; no novelty exclusion,138,106,32,0.8956367924528301,0.8050729213850351
+coadd_matched_antibacterial_dose_consensus_hits,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,121,39,82,0.6060037523452156,0.759887599038661
+coadd_matched_antibacterial_dose_any_hit,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,126,40,86,0.6082848837209303,0.7640714628394991
+coadd_fixed_10_um_consensus_hits,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,164,136,28,0.6943277310924371,0.3667682684350188
+coadd_fixed_10_um_any_hit,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,169,140,29,0.6870689655172414,0.3597199598712385
+coadd_conventional_32_ug_ml_or_10_um_consensus_hits,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,164,82,82,0.6815883402736467,0.6435169778555629
+coadd_conventional_32_ug_ml_or_10_um_any_hit,coadd,e_coli,CC50 interval-aware; exact compound ID and standardized structure join,169,83,86,0.6830344634351359,0.6503229298366352
+drh_EC_hit_inh_identity_isomeric_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,54,37,17,0.5739268680445151,0.5367862082644713
+drh_EC_hit_inh_identity_isomeric_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,58,37,21,0.5405405405405406,0.5238613669420871
+drh_EC_hit_inh_identity_connectivity_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,90,64,26,0.5877403846153847,0.4352826265034645
+drh_EC_hit_inh_identity_connectivity_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,96,64,32,0.55712890625,0.4385305884485977
+drh_EC_hit_inh_reported_tanimoto_1_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,91,65,26,0.5816568047337278,0.4263331740563884
+drh_EC_hit_inh_reported_tanimoto_1_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,97,65,32,0.5509615384615385,0.42982821963392326
+drh_EC_hit_inh_all_supplied_matches_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,91,65,26,0.5816568047337278,0.4263331740563884
+drh_EC_hit_inh_all_supplied_matches_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,97,65,32,0.5509615384615385,0.42982821963392326
+drh_EC_hit_kill_identity_isomeric_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,32,20,12,0.75,0.7831517638181476
+drh_EC_hit_kill_identity_isomeric_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,34,20,14,0.717857142857143,0.7820712468008483
+drh_EC_hit_kill_identity_connectivity_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,42,28,14,0.6989795918367347,0.6286341886693068
+drh_EC_hit_kill_identity_connectivity_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,44,28,16,0.6785714285714285,0.6401056357857828
+drh_EC_hit_kill_reported_tanimoto_1_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,43,29,14,0.6921182266009851,0.617987731110595
+drh_EC_hit_kill_reported_tanimoto_1_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,45,29,16,0.6724137931034483,0.6302677837343534
+drh_EC_hit_kill_all_supplied_matches_consensus_toxicity,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,43,29,14,0.6921182266009851,0.617987731110595
+drh_EC_hit_kill_all_supplied_matches_any_toxic,drug_repurposing_hub,e_coli,Unique canonical isomeric EC structures; inspect identity policy,45,29,16,0.6724137931034483,0.6302677837343534
+pooled_source_records_before_cross_source_deduplication,combined,e_coli,One eligible source record before chemical deduplication,237,117,120,0.6788461538461538,0.6855093361643154
+pooled_source_records_before_cross_source_deduplication,combined,k_pneumoniae,One eligible source record before chemical deduplication,110,85,25,0.8870588235294117,0.8072695008964137
+primary_unique_consistent_molecules,combined,e_coli,Exact canonical isomeric identity; exclude conflicting labels or score versions,228,112,116,0.6882697044334976,0.6937415526180265
+primary_unique_consistent_molecules,combined,k_pneumoniae,Exact canonical isomeric identity; exclude conflicting labels or score versions,110,85,25,0.8870588235294117,0.8072695008964137
+primary_source_contribution,coadd,e_coli,After within- and between-source chemical deduplication,120,39,81,0.6084203861981639,0.7595341392363266
+primary_source_contribution,drug_repurposing_hub,e_coli,After within- and between-source chemical deduplication,49,33,16,0.6174242424242424,0.5711879588909415
+primary_source_contribution,ecbd,e_coli,After within- and between-source chemical deduplication,59,40,19,0.8328947368421052,0.7794661686368698
+primary_source_contribution,ecbd,k_pneumoniae,After within- and between-source chemical deduplication,110,85,25,0.8870588235294117,0.8072695008964137

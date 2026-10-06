@@ -1,0 +1,13 @@
+{
+  "supplementary_figure_2/analysis/iteration_1_unfiltered_assays.png": "supplementary_figure_2/panel_a/iteration_1_unfiltered_assays.png",
+  "supplementary_figure_2/analysis/iteration_1_unfiltered_assays.svg": "supplementary_figure_2/panel_a/iteration_1_unfiltered_assays.svg",
+  "supplementary_figure_2/analysis/panel_a_recomputed_tox21.png": "supplementary_figure_2/panel_a/panel_a_recomputed_tox21.png",
+  "supplementary_figure_2/analysis/panel_a_recomputed_tox21.svg": "supplementary_figure_2/panel_a/panel_a_recomputed_tox21.svg",
+  "supplementary_figure_2/analysis/panel_dependencies.csv": "supplementary_figure_2/shared/panel_dependencies.csv",
+  "supplementary_figure_2/analysis/tox21_assay_exclusions.csv": "supplementary_figure_2/panel_a/tox21_assay_exclusions.csv",
+  "supplementary_figure_2/analysis/tox21_assay_metrics.csv": "supplementary_figure_2/panel_a/tox21_assay_metrics.csv",
+  "supplementary_figure_2/analysis/tox21_metrics_all_policies_and_scores.csv": "supplementary_figure_2/panel_a/tox21_metrics_all_policies_and_scores.csv",
+  "supplementary_figure_2/analysis/tox21_molecular_cohort_and_labels.csv": "supplementary_figure_2/panel_a/tox21_molecular_cohort_and_labels.csv",
+  "supplementary_figure_2/analysis/tox21_provenance.json": "supplementary_figure_2/panel_a/tox21_provenance.json",
+  "supplementary_figure_2/analysis/validation.json": "supplementary_figure_2/shared/validation.json"
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "old": "figure_2/analysis.py",
+    "new": "figure_2/shared/analysis.py",
+    "sha256": "496269c272386c2fd717d59e48c2efacb3841b2e620c2f5e89f7e4cb82a35b12",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/test_analysis.py",
+    "new": "figure_2/shared/test_analysis.py",
+    "sha256": "5d6dcd5c71ba0c9cacc00036b382a152277b86e7681e790a168534cedc0a22d7",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/assumption_audit.csv",
+    "new": "figure_2/shared/assumption_audit.csv",
+    "sha256": "3498b8ce8bd76576d24b5713d462fecca5680fea2ff5e2282d10910299f5084c",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_alert_provenance.json",
+    "new": "figure_2/panel_h/clintox_alert_provenance.json",
+    "sha256": "fbe31cbb96c3300bf52b4f5db931ef36336aa77c66297fc1bea8defd88bc992d",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_cohort_alerts_and_overlap.csv",
+    "new": "figure_2/panel_h/clintox_cohort_alerts_and_overlap.csv",
+    "sha256": "3695b3234d12561358b2587d767bbfa3db7f2291326cf967205513263bb721ab",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_cohort_with_recomputed_alerts.csv",
+    "new": "figure_2/panel_h/clintox_cohort_with_recomputed_alerts.csv",
+    "sha256": "7510e0f883c068c5c08b90909c8fcd70fe0d259f26dceab1d978202d569e6d93",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_molecular_cohort.csv",
+    "new": "figure_2/panel_h/clintox_molecular_cohort.csv",
+    "sha256": "d49246cbe0300de61eb61b0f2db98c9ab86e4f7be81e8ebb0019cee34d0c0d43",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_overlap_cxsmiles_repairs.csv",
+    "new": "figure_2/panel_h/clintox_overlap_cxsmiles_repairs.csv",
+    "sha256": "6635c106a897c770643e1632efbe6dd2c87d7f1b41eee5e6fb2d85ae6b6a918d",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_overlap_excluded_reference_structures.csv",
+    "new": "figure_2/panel_h/clintox_overlap_excluded_reference_structures.csv",
+    "sha256": "ef298ffec23add36fa084e1fb270c355294a85b284619da1054c315423643218",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_overlap_provenance.json",
+    "new": "figure_2/panel_h/clintox_overlap_provenance.json",
+    "sha256": "f12424fcbffb7f6b5d8f90f0f22666c211073297f77fec6897dcea8d363abab7",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_primary_molecular_cohort.csv",
+    "new": "figure_2/panel_h/clintox_primary_molecular_cohort.csv",
+    "sha256": "3bea89d904e070fa2b727e0c4755ad2070d8c532583c0418848cb4995b6df97e",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_provided_vs_recomputed_alerts.csv",
+    "new": "figure_2/panel_h/clintox_provided_vs_recomputed_alerts.csv",
+    "sha256": "088f2b328c8f2594482b2e71d87c6040f0eecf2307ea6d66022f8f66958e08b3",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_recomputed_overlap_filter_metrics.csv",
+    "new": "figure_2/panel_h/clintox_recomputed_overlap_filter_metrics.csv",
+    "sha256": "31dfe03d4fe49e8b1c825f1567d28b84dd293823935aa250b4e239c0132fdffb",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_recomputed_training_similarity.csv",
+    "new": "figure_2/panel_h/clintox_recomputed_training_similarity.csv",
+    "sha256": "2fa866045a39bb84f532b93f08bbea7c682263d26b682535185bd1ad035e523d",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_score_and_historical_split_audit.csv",
+    "new": "figure_2/panel_h/clintox_score_and_historical_split_audit.csv",
+    "sha256": "90b4a854f2a37eaa919eaf9601fb254b440f1e48ed4884bcc0bd6fc6159dc05b",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_source_provenance.json",
+    "new": "figure_2/panel_h/clintox_source_provenance.json",
+    "sha256": "e5b11f57989d9fc0876c64bebb6e6d2713aaf0c07cef8152d634700ce4e4317f",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/clintox_unfiltered_filter_metrics.csv",
+    "new": "figure_2/panel_h/clintox_unfiltered_filter_metrics.csv",
+    "sha256": "c37e7dd58e2581a8ab68a87f36b32837636de59cb296f01b216fa322fda91ea3",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_alert_provenance.json",
+    "new": "figure_2/panel_e/ecbd_alert_provenance.json",
+    "sha256": "88337a4d5d3940c817972f4da1a1dc974f156cc88c21d01ceaa340538f737f5a",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_assay_molecular_cohort.csv",
+    "new": "figure_2/shared/ecbd/ecbd_assay_molecular_cohort.csv",
+    "sha256": "4cc97aac39e2a2cefe7c7b2de797c41ba7b67d52fda09cdb3cc4b1d0707568a4",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_cohort_score_label_sensitivity.csv",
+    "new": "figure_2/shared/ecbd/ecbd_cohort_score_label_sensitivity.csv",
+    "sha256": "b74dc75db4a5825d4f12a20547a18e2fe6987108d0fdf892c243ecaa9f3e387f",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_cohort_with_recomputed_alerts.csv",
+    "new": "figure_2/panel_e/ecbd_cohort_with_recomputed_alerts.csv",
+    "sha256": "399c35b495687167df2dc0e63a68e28058109e7dfb45d90dfe76f9eb06c81801",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_ensemble_aggregation_provenance.json",
+    "new": "figure_2/shared/ecbd/ecbd_ensemble_aggregation_provenance.json",
+    "sha256": "9a8dfaea56589f0ce24ad2a17cec422e81c19543e782d5bf39bec5e5dc1fa725",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_input_version_comparison.csv",
+    "new": "figure_2/shared/ecbd/ecbd_input_version_comparison.csv",
+    "sha256": "da1a4cdcd81e4b27af01272c7a2a3fdcd825b9db935e8dca004619f3b8580009",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_label_definition_audit.csv",
+    "new": "figure_2/shared/ecbd/ecbd_label_definition_audit.csv",
+    "sha256": "d04a2d469c2a9e663e191c01cedf28869c6a949eab202199dcc8a7ec17019366",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_merged_molecular_cohort.csv",
+    "new": "figure_2/shared/ecbd/ecbd_merged_molecular_cohort.csv",
+    "sha256": "094173ff1d7de31a9e3d511116738a69a4d8577be7cab437a0e099e7f4238d1d",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_provided_vs_recomputed_alerts.csv",
+    "new": "figure_2/panel_e/ecbd_provided_vs_recomputed_alerts.csv",
+    "sha256": "04df465f4203788ee7b818ea4d58c8ad93b68448d4e591dc4cbfbf7b394f15b6",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_recomputed_ensemble_scores.csv",
+    "new": "figure_2/shared/ecbd/ecbd_recomputed_ensemble_scores.csv",
+    "sha256": "38e29f6f9dceafd9c17d813dd067a44442f5fd9fbf4d30a1533affb0d9e77b8a",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_restricted_molecular_cohort.csv",
+    "new": "figure_2/shared/ecbd/ecbd_restricted_molecular_cohort.csv",
+    "sha256": "d2c5d9c7889d034ec97d83259293bf5ef5cd1aac73a7fd1242886c97dbaec4fa",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_saved_member_and_aggregation_metrics.csv",
+    "new": "figure_2/shared/ecbd/ecbd_saved_member_and_aggregation_metrics.csv",
+    "sha256": "82f6cbe6e8ed4c2aeb26e8949ebb160de93457a642bd2805ddb26eae193b2df5",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_source_provenance.csv",
+    "new": "figure_2/shared/ecbd/ecbd_source_provenance.csv",
+    "sha256": "3310ae3aa23aff3b162556d269eb90b7e653426f48c508fe733f09c361c1574c",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/ecbd_task_score_aggregation_audit.csv",
+    "new": "figure_2/shared/ecbd/ecbd_task_score_aggregation_audit.csv",
+    "sha256": "44370d26c9836f9b22e571adfd8da1b80645fb2658009fea578ed336eed55298",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/iteration_1_panel_f_unfiltered.png",
+    "new": "figure_2/panel_f/iteration_1_panel_f_unfiltered.png",
+    "sha256": "68d9662df21a388abe86367a3c9428a2260c28e4f2d9e779e74ed9b6011a6d00",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/iteration_1_panel_f_unfiltered.svg",
+    "new": "figure_2/panel_f/iteration_1_panel_f_unfiltered.svg",
+    "sha256": "b916aaabcc4c9c62126c6dec9beb3b0b25ca298584a0334343dbc90d0d58ee56",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/iteration_1_panel_h_clintox_unfiltered.png",
+    "new": "figure_2/panel_h/iteration_1_panel_h_clintox_unfiltered.png",
+    "sha256": "ee9e886aa57678aca58684e52adc62d25d8dac50a57bf7d8ee874f46ad7567a4",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/iteration_1_panel_h_clintox_unfiltered.svg",
+    "new": "figure_2/panel_h/iteration_1_panel_h_clintox_unfiltered.svg",
+    "sha256": "41278b16412fecc2b271e06a3638cc10ca17bb0534c06dd7bebe21e881332a75",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_d_ecbd_roc_pr.png",
+    "new": "figure_2/panel_d/panel_d_ecbd_roc_pr.png",
+    "sha256": "ebb1772c72b9e373a8580aa5ea547b76d786d1016e6155613f341cdb58b0c4a8",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_d_ecbd_roc_pr.svg",
+    "new": "figure_2/panel_d/panel_d_ecbd_roc_pr.svg",
+    "sha256": "38be033205e19e01cc9ab08fd2e62f17e6e55ceb5c7621f7547b404478c9d6e8",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_d_pr_values.csv",
+    "new": "figure_2/panel_d/panel_d_pr_values.csv",
+    "sha256": "3fff02a428beffe0888da879517da87874ae05ac866e2deba18d08fd52b750ba",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_d_roc_values.csv",
+    "new": "figure_2/panel_d/panel_d_roc_values.csv",
+    "sha256": "28e05f6066e101ae49ca8eccfd1e45f3859e14d64ba9185648fd7a989e4c3b17",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_dependencies.csv",
+    "new": "figure_2/shared/panel_dependencies.csv",
+    "sha256": "7fcde95031fe8d823d58cbbf474f1f4a582111288fdbcefd76bcb175799bdb87",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_e_ecbd_filter_metrics.csv",
+    "new": "figure_2/panel_e/panel_e_ecbd_filter_metrics.csv",
+    "sha256": "455542b47dfc329dc0cb76d3e9b5cf7fbe5808986aae7e5da983dde2a29cc913",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_e_ecbd_filters_recomputed.png",
+    "new": "figure_2/panel_e/panel_e_ecbd_filters_recomputed.png",
+    "sha256": "1d4c197bf550d0e3a3265bf3aebd6fcba1dc3da7f7422fde30f5316c51bcd9b1",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_e_ecbd_filters_recomputed.svg",
+    "new": "figure_2/panel_e/panel_e_ecbd_filters_recomputed.svg",
+    "sha256": "d6c7abf7c70bf651474669ff00b852365f0628341091c44d4950ee201029c591",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_f_tox21_recomputed.png",
+    "new": "figure_2/panel_f/panel_f_tox21_recomputed.png",
+    "sha256": "5649ce11da485bb07138e774e26e2043b3144e1901d2b090f62ab19c75511739",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_f_tox21_recomputed.svg",
+    "new": "figure_2/panel_f/panel_f_tox21_recomputed.svg",
+    "sha256": "42677e3ce019f3cac7c92c1c7540db3e8cbe58b5581bd6a1672ad6c766a43f4e",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_h_clintox_filter_metrics.csv",
+    "new": "figure_2/panel_h/panel_h_clintox_filter_metrics.csv",
+    "sha256": "b6ab8f8b59951a8b04c7fab567996498e4e209ceddc934e66530044fa34eaef2",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_h_clintox_filters_recomputed.png",
+    "new": "figure_2/panel_h/panel_h_clintox_filters_recomputed.png",
+    "sha256": "090d50b4577605dc2526699c49ceb83f55d35572cdd15c0e0b07941029551cac",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_h_clintox_filters_recomputed.svg",
+    "new": "figure_2/panel_h/panel_h_clintox_filters_recomputed.svg",
+    "sha256": "326c7bf046ebc805cd747bc77ef42725b50fea02887984a7605b90aa49e5bea7",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_h_clintox_morgan_overlap_sensitivity.png",
+    "new": "figure_2/panel_h/panel_h_clintox_morgan_overlap_sensitivity.png",
+    "sha256": "d541e44969a4bcecdc1eded03d5e45de672ed4b72a61726781eb51ccb21c64bc",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/panel_h_clintox_morgan_overlap_sensitivity.svg",
+    "new": "figure_2/panel_h/panel_h_clintox_morgan_overlap_sensitivity.svg",
+    "sha256": "fbd26ba8d00d2a30e35b9d65080c7a58e47f29cbee5e8d60d7227a8a93e169d7",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/runtime_dependencies.json",
+    "new": "figure_2/shared/runtime_dependencies.json",
+    "sha256": "6711f2d36a8ed60c742767c34895710938ec25513038997834b6379241219641",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/tox21_assay_exclusions.csv",
+    "new": "figure_2/panel_f/tox21_assay_exclusions.csv",
+    "sha256": "d748ca2ae299af1487ce15476bf7d2f8b82c97693d5a204a851cb758c4490db9",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/tox21_assay_metrics.csv",
+    "new": "figure_2/panel_f/tox21_assay_metrics.csv",
+    "sha256": "4b6b38861539e1a88edd97c2376cf12f21c3876d9ca1acdb8ced952bf17472dc",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/tox21_metrics_all_policies_and_scores.csv",
+    "new": "figure_2/panel_f/tox21_metrics_all_policies_and_scores.csv",
+    "sha256": "6764dfa3060b6ed506d4b162325aa33e7e8348319746c77892f0960a73fd15bc",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/tox21_molecular_cohort_and_labels.csv",
+    "new": "figure_2/panel_f/tox21_molecular_cohort_and_labels.csv",
+    "sha256": "555c988379788e0ef714865776590741b8b689ab0963d975e5fafdcdc485d3f0",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/tox21_provenance.json",
+    "new": "figure_2/panel_f/tox21_provenance.json",
+    "sha256": "e3ad4f1cea7a914ce641982ff4aef5ba6be040c74f2bb273ac509fb4fe0d2c12",
+    "unchanged_when_moved": true
+  },
+  {
+    "old": "figure_2/analysis/validation.json",
+    "new": "figure_2/shared/validation.json",
+    "sha256": "ae83cc527f546fc1f16af89c77cb9e8d3e96528ae7fe3d0e78ad89e8b029adf3",
+    "unchanged_when_moved": true
+  }
+]

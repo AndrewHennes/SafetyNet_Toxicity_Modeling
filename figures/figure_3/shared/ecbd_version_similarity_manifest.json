@@ -1,0 +1,63 @@
+{
+  "source_versions": [
+    {
+      "version": "assay_101097",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_assay_labels_predictions_and_filters.csv",
+      "sha256": "333cc9cf3d0109f7845b2e53b276309123ee7ee9f4bb516cbe6ad08f3909beb5",
+      "rows": 101097
+    },
+    {
+      "version": "merged_106373",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_merged_panel_predictions.csv",
+      "sha256": "d76f0330ff045f4787e8d71c9d3efd950b3e169807912479007ee7963ceda25a",
+      "rows": 106373
+    },
+    {
+      "version": "restricted_43993",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_safetynet_predictions_with_structural_alerts.csv",
+      "sha256": "870038309bae174914dcbb6b3ae8c40e8b04452bc245a088e340164ecad77962",
+      "rows": 43993
+    }
+  ],
+  "references": [
+    {
+      "reference": "100k",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/toxicity_datasets/safetynet_100k_cytotoxicity_dataset.csv",
+      "sha256": "de4393c66ccae50140157165c847a8efddcbea3b777a5ddbb41e5a8757b181ee",
+      "input_column": "Standardized_SMILES",
+      "source_rows": 100352,
+      "unique_valid_isomeric_structures": 99524,
+      "invalid_rows": 4,
+      "cxsmiles_spacing_repairs": 72
+    },
+    {
+      "reference": "39k",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/broad_39k.csv",
+      "sha256": "8e3771c13037061d233f3a650eb4db0300d622e0ec9be2ffd88ab0d5abd42d5c",
+      "input_column": "Standardized_SMILES",
+      "source_rows": 39981,
+      "unique_valid_isomeric_structures": 38770,
+      "invalid_rows": 1,
+      "cxsmiles_spacing_repairs": 0
+    }
+  ],
+  "rdkit_version": "2024.09.4",
+  "fingerprint_assumptions": {
+    "type": "Morgan binary",
+    "radius": 2,
+    "bits": 2048,
+    "include_chirality": false,
+    "query_structure": "full source SMILES canonicalized without salt stripping or tautomer changes",
+    "reference_structure": "provided Standardized_SMILES column",
+    "similarity": "Tanimoto maximum over complete valid unique reference collection"
+  },
+  "unique_query_structures": 270,
+  "candidate_source_rows": 630,
+  "interpretation": [
+    "Native activity labels and numeric growth-inhibition thresholds are distinct policies, not interchangeable fields.",
+    "Stored and calculated similarities are analyzed separately.",
+    "Only provided similarity annotations are joined across identical structures; labels and model scores remain with their own source version.",
+    "Known-antibiotic <0.7 and training-library <0.9 rules are a sensitivity analysis, not asserted retrospective cohort rules.",
+    "Each cohort policy is evaluated separately."
+  ]
+}

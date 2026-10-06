@@ -1,0 +1,18 @@
+{
+  "panel": "e",
+  "status": "recomputed_from_rows_and_structures",
+  "complete_cohort_rows": 35964,
+  "methods": [
+    "safetynet",
+    "glaxo",
+    "dundee",
+    "bms",
+    "brenk",
+    "surechembl",
+    "mlsmr",
+    "inpharmatica",
+    "lint"
+  ],
+  "shared_cohort": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/shared/ecbd/primary_ecbd_cohort.csv",
+  "source_figure_or_summary_values_used": false
+}

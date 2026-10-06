@@ -1,0 +1,89 @@
+{
+  "inputs": [
+    {
+      "key": "ecbd",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_assay_labels_predictions_and_filters.csv",
+      "sha256": "333cc9cf3d0109f7845b2e53b276309123ee7ee9f4bb516cbe6ad08f3909beb5",
+      "rows": 101097,
+      "delimiter": ","
+    },
+    {
+      "key": "coadd_tox",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/coadd/coadd_hek293_labels_and_predictions.tsv",
+      "sha256": "a9ceddea780c1362cc39403fa2c102f9b83c6f4e1865c9ebabac4a3ca8efdc3e",
+      "rows": 4598,
+      "delimiter": "\t"
+    },
+    {
+      "key": "coadd_activity",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/coadd.csv",
+      "sha256": "3012cd12af63859b7ad0d69b7e0e10674d585217b08c2d414e8014f8543c85e7",
+      "rows": 188740,
+      "delimiter": ","
+    },
+    {
+      "key": "drh",
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/drug_repurposing_hub/drug_repurposing_hub_ec_hepg2_labels_and_predictions.tsv",
+      "sha256": "b89595c1d797b62412391e10f8f385a5d2836b0a678e5a6e1f73b8f393037f83",
+      "rows": 4527,
+      "delimiter": "\t"
+    }
+  ],
+  "rdkit_version": "2024.09.4",
+  "catalogs": {
+    "Brenk": {
+      "rdkit_enum": "BRENK",
+      "entries": 105
+    },
+    "Glaxo": {
+      "rdkit_enum": "CHEMBL_Glaxo",
+      "entries": 55
+    },
+    "Dundee": {
+      "rdkit_enum": "CHEMBL_Dundee",
+      "entries": 105
+    },
+    "BMS": {
+      "rdkit_enum": "CHEMBL_BMS",
+      "entries": 180
+    },
+    "SureCHEMBL": {
+      "rdkit_enum": "CHEMBL_SureChEMBL",
+      "entries": 166
+    },
+    "MLSMR": {
+      "rdkit_enum": "CHEMBL_MLSMR",
+      "entries": 116
+    },
+    "Inpharmatica": {
+      "rdkit_enum": "CHEMBL_Inpharmatica",
+      "entries": 91
+    },
+    "LINT": {
+      "rdkit_enum": "CHEMBL_LINT",
+      "entries": 57
+    }
+  },
+  "primary_rules": {
+    "ecbd": "supplied binarized activity and HepG2 labels",
+    "coadd": "exact ID and supplied-standardized structure agreement; unanimous E. coli hit observations; CC50 interval classified at matched antibacterial dose",
+    "drh": "growth-inhibition hits; exact isomeric molecular identity between paired assays; unanimous observed toxicity",
+    "duplicate_policy": "one canonical isomeric molecule per organism; conflicts in labels or saved scores excluded",
+    "score": "provided Max_Tox_Score, not newly inferred",
+    "threshold": "predicted toxic if score strictly greater than cutoff",
+    "kde": "SciPy gaussian_kde with Scott bandwidth; no boundary correction",
+    "chemical_space": "shared chemical_space.py analysis supplied by repository figure infrastructure"
+  },
+  "limits": [
+    "Cohort selection and prediction-version assumptions are recorded in primary_rules.",
+    "Each source uses its recorded assay definition and exposure conditions.",
+    "Similarity filters use the specified exclusion policy and reference cohort.",
+    "DMAX_AVE is retained as source metadata.",
+    "Statistics are calculated from the selected compound-level records."
+  ],
+  "documentation": [
+    "https://www.co-add.org/sites/co-add.org/files/CO-ADD_ScreeningWorkflow_May2016.pdf",
+    "https://db.co-add.org/organism",
+    "https://rdkit.org/docs/source/rdkit.Chem.rdfiltercatalog.html"
+  ]
+}

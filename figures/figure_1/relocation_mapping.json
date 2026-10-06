@@ -1,0 +1,13 @@
+{
+  "figure_1/analysis/chemical_space_initial_svd.png": "figure_1/panel_b/chemical_space_initial_svd.png",
+  "figure_1/analysis/chemical_space_initial_svd.svg": "figure_1/panel_b/chemical_space_initial_svd.svg",
+  "figure_1/analysis/chemical_space_status.json": "figure_1/panel_b/chemical_space_status.json",
+  "figure_1/analysis/chemical_space_tsne.png": "figure_1/panel_b/chemical_space_tsne.png",
+  "figure_1/analysis/chemical_space_tsne.svg": "figure_1/panel_b/chemical_space_tsne.svg",
+  "figure_1/analysis/intersection_comparison.csv": "figure_1/shared/intersection_comparison.csv",
+  "figure_1/analysis/property_density_values.csv": "figure_1/panel_c/property_density_values.csv",
+  "figure_1/analysis/regenerated_panels.png": "figure_1/shared/iterations/previous_combined_panels.png",
+  "figure_1/analysis/regenerated_panels.svg": "figure_1/shared/iterations/previous_combined_panels.svg",
+  "figure_1/analysis/validation.json": "figure_1/shared/validation.json",
+  "figure_1/analysis/viability_correlations.csv": "figure_1/panel_f/viability_correlations.csv"
+}

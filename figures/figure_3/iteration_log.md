@@ -1,0 +1,9 @@
+# Dataset-driven reproduction iterations
+
+1. Investigated the full CO-ADD antimicrobial table. Found 4,190 exact joins to the HEK293 table and repeated organism-specific facts caused by the merged table layout. Deduplicated E. coli facts before identifying 169 candidate hit compound IDs. Separated five discordant antibacterial hit cases from consensus hits.
+2. Implemented interval-aware CC50 classification with concentration-unit conversion. Compared same-dose, fixed 10 µM, and conventional mass/molar cutoff policies. Kept the primary same-dose assumption explicit and excluded 43 indeterminate right-censored cases instead of replacing censored values with their bounds.
+3. Investigated the DRH many-to-many match table. Tested exact isomeric identity, connectivity-only identity, the reported Tanimoto matches, inhibition/killing hit definitions, and repeated-toxicity policies. Selected exact isomeric pairing and unanimous observed toxicity as the conservative primary reconstruction.
+4. Reconstructed the combined molecular cohort with source IDs and cross-source conflict checks. Computed all eight structural-alert systems from the selected structures, including Brenk. Verified all available supplied ECBD flags against the recomputation.
+5. Generated an initial plot from the reconstructed row data, then refined the density curves, axis scaling, method ordering, colors, and layout. Both earlier composite plot versions are preserved under `shared/iterations/`. The refined plot displays the calculated cohort sizes and results.
+
+6. Organized the code and results into panel_a through panel_g. Split the b–g composite into six independently runnable plots, retained common cohort construction and audits in shared, and checked that every split table preserves the prior numerical results. The previous composite images remain as iteration evidence.

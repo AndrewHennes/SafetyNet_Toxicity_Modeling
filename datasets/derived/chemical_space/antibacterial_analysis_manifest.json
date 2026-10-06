@@ -1,0 +1,78 @@
+{
+  "source_sha256": {
+    "internal_39k": "8e3771c13037061d233f3a650eb4db0300d622e0ec9be2ffd88ab0d5abd42d5c",
+    "ecbd": "83f6944e160abdc024cecb06107e123ce4f9b7e4cd74b5b5ed0a87ffac30e5a1",
+    "coadd": "3012cd12af63859b7ad0d69b7e0e10674d585217b08c2d414e8014f8543c85e7",
+    "drug_repurposing_hub": "b89595c1d797b62412391e10f8f385a5d2836b0a678e5a6e1f73b8f393037f83"
+  },
+  "source_files": {
+    "internal_39k": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/broad_39k.csv",
+    "ecbd": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/ecbd.csv",
+    "coadd": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/coadd.csv",
+    "drug_repurposing_hub": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/drug_repurposing_hub/drug_repurposing_hub_ec_hepg2_labels_and_predictions.tsv"
+  },
+  "parameters": {
+    "fingerprint": "RDKit Morgan binary",
+    "radius": 2,
+    "bits": 2048,
+    "include_chirality": false,
+    "molecule_policy": "First source row per RDKit canonical isomeric SMILES within each library; all valid unique molecules, no sampling",
+    "reduction": "TruncatedSVD, uncentered binary fingerprints",
+    "svd_components": 50,
+    "svd_iterations": 7,
+    "tsne_perplexity": 30,
+    "tsne_neighbors": "pynndescent",
+    "tsne_metric": "euclidean on SVD components",
+    "tsne_initialization": "pca",
+    "tsne_early_exaggeration_iterations": 250,
+    "tsne_iterations": 750,
+    "tsne_negative_gradient": "fft",
+    "seed": 42,
+    "threads": 12
+  },
+  "versions": {
+    "rdkit": "2024.09.4",
+    "open_tsne": "1.0.4",
+    "scikit_learn": "1.6.1",
+    "numpy": "2.1.3"
+  },
+  "cohorts": {
+    "internal_39k": {
+      "input_rows": 39981,
+      "valid_unique_molecules": 39155,
+      "invalid_smiles": 1,
+      "duplicate_valid_molecules": 825
+    },
+    "ecbd": {
+      "input_rows": 101097,
+      "valid_unique_molecules": 101097,
+      "invalid_smiles": 0,
+      "duplicate_valid_molecules": 0
+    },
+    "coadd": {
+      "input_rows": 188740,
+      "valid_unique_molecules": 99964,
+      "invalid_smiles": 8,
+      "duplicate_valid_molecules": 88768
+    },
+    "drug_repurposing_hub": {
+      "input_rows": 4527,
+      "valid_unique_molecules": 4143,
+      "invalid_smiles": 0,
+      "duplicate_valid_molecules": 384
+    }
+  },
+  "svd_explained_variance_sum": 0.41994407773017883,
+  "tsne_kl_divergence": 3.4963895198210633,
+  "coordinates_sha256": "91233ba9483786971c3a6703a43a2e1fc2126493adf8f3a5bd481738ce38d6d5",
+  "elapsed_seconds": 385.339542166912,
+  "original_layout_reproduced": false,
+  "limitations": [
+    "Fingerprint and t-SNE parameters are recorded in this manifest.",
+    "Deterministic projection of supplied molecules.",
+    "Drug Repurposing Hub uses the supplied matched subset.",
+    "Figures 3a and 4a share the four-library fit; Figure 4 hides the Drug Repurposing Hub points without refitting."
+  ],
+  "implementation_reference": "https://opentsne.readthedocs.io/en/stable/api/index.html",
+  "source_row_index_base": 0
+}

@@ -1,0 +1,2 @@
+organism,n,nontoxic,toxic,auroc,average_precision,median_nontoxic,median_toxic,scores_exactly_0_2
+k_pneumoniae,110,85,25,0.8870588235294117,0.8072695008964137,0.098219756,0.666155288,0

@@ -1,0 +1,7 @@
+{
+  "panel": "c",
+  "status": "blocked_missing_raw_inputs",
+  "details": "Inputs: external cohorts, labels, and each baseline and SafetyNet fold prediction set.",
+  "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+  "synthetic_or_summary_replay": false
+}

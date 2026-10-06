@@ -1,0 +1,11 @@
+{
+  "input": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/clintox/clintox_labels_predictions_and_filters.csv",
+  "sha256": "5f6d6daded34b5dbbfd06f394c09e8168bfb9ef328d4befb71d43e41528fd5ea",
+  "rows": 1477,
+  "valid_label_score": 1477,
+  "stored_max_vs_max_task_difference": 0.0,
+  "base_cohort": "All supplied labeled compounds with valid scores; novelty selection is computed separately",
+  "split_policy": "Historical split labels are sensitivity strata, not SafetyNet train/test assignments.",
+  "similarity_filter": "Computed from molecules using the fingerprint and reference-cohort parameters in clintox_overlap_sensitivity.",
+  "duplicate_raw_smiles_rows_retained": 19
+}

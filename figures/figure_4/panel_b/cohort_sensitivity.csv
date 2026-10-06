@@ -1,0 +1,8 @@
+scenario,compound_or_record_count,any_hit,AB_hits,EC_hits,KP_hits,PA_hits
+initial_all_complete_records,39889,328,242,230,205,121
+exact_record_deduplication,39205,310,228,216,191,111
+raw_smiles_first_record,39190,310,228,216,191,111
+raw_smiles_last_record,39190,310,228,216,191,111
+refined_raw_smiles_distinct_measurement_mean,39190,310,228,216,191,111
+standardized_smiles_distinct_measurement_mean,38701,290,211,203,180,106
+canonical_raw_smiles_distinct_measurement_mean,39077,303,222,212,188,110

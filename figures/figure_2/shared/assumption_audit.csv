@@ -1,0 +1,12 @@
+choice,value,basis,uncertainty
+primary_ecbd_cohort,Restricted table with native toxicity label and maxsim_100K <= 0.9,Only ECBD table with both measured labels and explicit training-overlap scores,Name-matched restricted source table
+ecbd_alternative_labels,"Native labels, measured growth inhibition >20 and >50 percent",Audit label sensitivity using explicit interpretable rules,Alternative label definitions are evaluated separately
+tox21_primary_similarity,<=0.9,Methods exclude compounds above 0.9,Reference identity/settings missing; <0.9 and <1 variants also exported
+tox21_score,Maximum of three supplied per-task ensemble means,Manuscript maximum-across-cell-types convention,Analysis uses saved predictions
+tox21_assay_inclusion,Both native outcome classes available after cohort filter,auROC is undefined for a single class,Four supplied assay columns contain only positives
+safetynet_threshold,Score >=0.2 is toxicity-positive,Nontoxic selection score <0.2,Exact cutoff ties are counted in metric tables
+structural_alerts,Eight RDKit catalogs applied to whole submitted molecules,Brenk and pharmaceutical catalog comparison reproducible from structures,Configured catalogs use full submitted molecules; stored flags are checked separately
+clintox_primary_cohort,Computed achiral Morgan radius2/2048-bit maximum similarity<=0.9,Novelty exclusion uses the stated Morgan fingerprint policy,Full-cohort and chiral sensitivity variants are included
+clintox_novelty_sensitivity,"Morgan radius2,2048bits,chirality on/off; supplied raw100K reference",Reproducible molecular overlap analysis with settings explicitly recorded,Configured fingerprints and reference cohort are recorded with the analysis
+random_f1_baseline,Prevalence,Independent Bernoulli predictor with positive rate equal to prevalence,F1 has no single baseline independent of classifier positive rate
+confidence_intervals,Not generated,Exact fold/bootstrap provenance absent,Curves are single supplied ensemble-score curves

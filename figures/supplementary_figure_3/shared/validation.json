@@ -1,0 +1,8 @@
+{
+  "status": "blocked_missing_compound_level_data",
+  "required_input": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/drugbank/approved_systemic_antibiotics_and_antineoplastics.csv",
+  "panels_recomputed": [],
+  "reason": "Inputs: DrugBank compound lists and per-compound SafetyNet scores.",
+  "artwork_counts_used_as_analysis_inputs": false,
+  "plots_generated": false
+}

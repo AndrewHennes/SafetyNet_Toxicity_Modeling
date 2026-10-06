@@ -1,0 +1,21 @@
+{
+  "panel_directories": 35,
+  "figure_directories": 7,
+  "python_scripts_parsed": 54,
+  "svg_files_parsed": 41,
+  "previous_files_accounted_for": 187,
+  "relocated_files": 156,
+  "unchanged_csv_bytes": 66,
+  "unchanged_csv_values": 1,
+  "csv_split_into_panel_subsets": [
+    "figure_3/analysis/histogram_counts.csv",
+    "figure_3/analysis/threshold_metrics.csv",
+    "figure_3/analysis/classification_metrics.csv",
+    "figure_3/analysis/kde_values.csv"
+  ],
+  "dataset_hashes_verified": 27,
+  "installed_full_workflow": "passed",
+  "execution_working_directory": "/private/tmp",
+  "staging_paths_in_installed_files": false,
+  "scientific_invariants": "passed"
+}

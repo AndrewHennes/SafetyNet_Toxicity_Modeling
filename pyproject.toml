@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safetynet"
+version = "0.1.0"
+description = "Multitask learning platform for predicting cytotoxicity and antibiotic activity (SafetyNet)."
+readme = "readme.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Yu Zhang" }
+]
+
+# These are *Python* deps; heavy stuff like CUDA toolkit is still handled via conda envs.
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "torch>=2.1",
+  "pytorch-lightning>=2.2,<3",
+  "minimol>=1.3.5",
+  "scikit-learn>=1.5",
+  "matplotlib>=3.7",
+  "rdkit",
+  "pyyaml",
+  "tqdm",
+  "typing-extensions",
+]
+
+[project.optional-dependencies]
+tune = ["ray[tune]>=2.0", "optuna"]
+dev = [
+  "black",
+  "isort",
+  "pytest",
+  "mypy",
+]
+
+[project.scripts]
+# High-level CLIs
+safetynet_score = "safetynet.cli.safetynet_score:main"
+safetynet_train = "safetynet.cli.safetynet_train:main"
+safetynet_predict = "safetynet.cli.safetynet_predict:main"
+
+[tool.setuptools]
+include-package-data = false
+packages = ["safetynet", "safetynet.cli", "safetynet.featurization", "safetynet.toxicity", "safetynet.antibiotic"]
+
+[tool.setuptools.package-dir]
+safetynet = "models"
+"safetynet.cli" = "models/cli_code"
+"safetynet.featurization" = "models/featurization"
+"safetynet.toxicity" = "models/safetynet"
+"safetynet.antibiotic" = "models/antibiotic_activity_model"

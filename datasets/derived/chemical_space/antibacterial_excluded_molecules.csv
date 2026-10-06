@@ -1,0 +1,10 @@
+dataset,source_row,reason,smiles
+internal_39k,32949,invalid_smiles,O=S(=O)(OCC1OC(OC2(COS(=O)(=O)O[AlH3](O)O)OC(COS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C2OS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C1OS(=O)(=O)O[AlH3](O)O)O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O
+coadd,2807,invalid_smiles,[BH]1234[BH]56([BH]17([BH]58([C]9([BH]78%10%11)([BH]%12%13%14[BH]2%15%16%17)([BH]%10%12%15%18)CCC#N)[C]69%13%19CCC#N)[BH]3%11%16%18)[BH]4%14%17%19
+coadd,55670,invalid_smiles,N#C[C]1234[C]567(C8=CC=CC=C8)[BH]9%10%11[BH]%12%13([BH]%14%15%16[BH]%17%183[BH]6%154[BH]%13%11%167)[BH]%19%14%18[BH]%129%20[BH]%19%171[BH]%105%202
+coadd,82003,invalid_smiles,[B]123([H])([B]45([B]16(S47)([B]2([B]89%10[H])([B]678[H])([B]39%11([B]%10%12([H])[N]%13=CC=C(C)C=C%13)[H])[H])[H])[H])[B]5%11%12[H]
+coadd,134268,invalid_smiles,[B]1234([H])[B]56([B]17([B]58([C]69%10([B]8%11([B]9%12%13([B]2%14%15%16[H])[H])([B]%12%14%17%18[H])[H])C(NCCC(O)=O)=O)([C]7%11%17%19C(NCCC(O)=O)=O)[H])([B]3%15%18%19[H])[H])([B]4%10%13%16[H])[H]
+coadd,148816,invalid_smiles,[C]1234(C(=O)NC(Cc5ccccc5)C(O)=O)[B]67([B]18([C]6([B]9%10([B]%11%12%13%14[H])([B]%11%15%16([B]2%12%17%18[H])[H])[H])([B]89%13%19[H])([B]7%10%15%20[H])C(=O)NC(Cc%21ccccc%21)C(O)=O)([B]3%14%17%19[H])[H])([B]4%16%18%20[H])[H]
+coadd,152042,invalid_smiles,[BH]1234[BH]56([BH]17([BH]58([C]9([BH]78%10%11)([BH]%12%13%14[BH]2%15%16%17)([BH]%10%12%15%18)COC(=O)Nc%19ccccc%19)[C]69%13%20COC(=O)Nc%21ccccc%21)[BH]3%11%16%18)[BH]4%14%17%20
+coadd,152886,invalid_smiles,
+coadd,160344,invalid_smiles,

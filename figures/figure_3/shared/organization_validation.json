@@ -1,0 +1,36 @@
+{
+  "split_table_preservation": {
+    "histogram_counts": {
+      "original_rows": 80,
+      "split_rows": 80,
+      "comparison": "unchanged at rtol=1e-12, atol=1e-12"
+    },
+    "kde_values": {
+      "original_rows": 1600,
+      "split_rows": 1600,
+      "comparison": "unchanged at rtol=1e-12, atol=1e-12"
+    },
+    "threshold_metrics": {
+      "original_rows": 18,
+      "split_rows": 18,
+      "comparison": "unchanged at rtol=1e-12, atol=1e-12"
+    },
+    "classification_metrics": {
+      "original_rows": 18,
+      "split_rows": 18,
+      "comparison": "unchanged at rtol=1e-12, atol=1e-12"
+    }
+  },
+  "panels_visually_checked": [
+    "b",
+    "d",
+    "f"
+  ],
+  "render_review": "Readable titles, labels, legends and method names; no clipping.",
+  "full_figure_regeneration": {
+    "working_directory": "/private/tmp",
+    "result": "passed",
+    "panels": "a-g",
+    "scientific_validation": "shared/validation_report.json"
+  }
+}

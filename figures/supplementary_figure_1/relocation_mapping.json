@@ -1,0 +1,10 @@
+{
+  "supplementary_figure_1/analysis/regenerated_panels.png": "supplementary_figure_1/panel_a/supplementary_figure_1a.png",
+  "supplementary_figure_1/analysis/iteration_1.png": "supplementary_figure_1/panel_a/iteration_1.png",
+  "supplementary_figure_1/analysis/iteration_1_bins.csv": "supplementary_figure_1/panel_a/iteration_1_bins.csv",
+  "supplementary_figure_1/analysis/iteration_1.svg": "supplementary_figure_1/panel_a/iteration_1.svg",
+  "supplementary_figure_1/analysis/regenerated_panels.svg": "supplementary_figure_1/panel_a/supplementary_figure_1a.svg",
+  "supplementary_figure_1/analysis/validation.json": "supplementary_figure_1/panel_a/validation.json",
+  "supplementary_figure_1/analysis/regenerated_panels_bins.csv": "supplementary_figure_1/panel_a/supplementary_figure_1a_bins.csv",
+  "supplementary_figure_1/regenerate.py": "supplementary_figure_1/panel_a/supplementary_figure_1a.py"
+}

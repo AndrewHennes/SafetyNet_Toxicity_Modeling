@@ -1,0 +1,7 @@
+{
+  "panel": "g",
+  "status": "blocked_missing_raw_inputs",
+  "details": "Inputs: compound-level animal dose observations, species/routes, units, transformations, and SafetyNet predictions.",
+  "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+  "synthetic_or_summary_replay": false
+}

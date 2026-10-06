@@ -1,0 +1,8 @@
+{
+  "panel": "i",
+  "status": "blocked_missing_inputs",
+  "reason": "K. pneumoniae inputs: compound-level antibacterial hits, measured toxicity labels, and SafetyNet scores.",
+  "plots_generated": false,
+  "artwork_values_used_as_analysis_inputs": false,
+  "reference_figure": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/figure.svg"
+}

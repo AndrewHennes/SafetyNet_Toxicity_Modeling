@@ -1,0 +1,43 @@
+column_name,assay_short,auROC,auPRC
+tox21-casp3-cho-p1_Activity__t6__t0,Caspase-3,0.890327959,0.259693159
+tox21-casp3-hepg2-p1_Activity__t5__t0,Caspase-3,0.859056185,0.349748025
+tox21-herg-u2os-p1_Activity__t18__t0,hERG channel,0.833258637,0.3915829
+tox21-p53-bla-p7_Activity__t0__t0,p53 reporter,0.801685298,0.121891558
+tox21-trhr-hek293-p1_Activity__t12__t0,TRHR reporter,0.790548303,0.122048996
+tox21-elg1-luc-agonist-p1_Activity__t4__t0,ELG1 agonist,0.790330572,0.289281324
+tox21-er-luc-bg1-4e2-antagonist-p2_Activity__t39__t0,ER antagonist,0.784680285,0.268792896
+tox21-fxr-bla-agonist-p2_Activity__t41__t0,FXR agonist,0.77374633,0.083722415
+tox21-ppard-bla-antagonist-p1_Activity__t17__t0,PPARD antagonist,0.773666757,0.076617412
+tox21-erb-bla-antagonist-p1_Activity__t15__t0,ER-beta antagonist,0.771142707,0.180160062
+tox21-vdr-bla-antagonist-p1_Activity__t42__t0,VDR antagonist,0.767760005,0.082169159
+tox21-tshr-agonist-p1_Activity__t35__t0,TSHR agonist,0.765370209,0.154482662
+tox21-pr-bla-antagonist-p1_Activity__t40__t0,PR antagonist,0.765262951,0.234665214
+tox21-er-bla-antagonist-p1_Activity__t8__t0,ER antagonist,0.759377076,0.186676822
+tox21-shh-3t3-gli3-antagonist-p1_Activity__t21__t0,Hedgehog antagonist,0.758266217,0.331572992
+tox21-vdr-bla-agonist-p1_Activity__t24__t0,VDR agonist,0.749095263,0.037130144
+tox21-ap1-agonist-p1_Activity__t7__t0,AP-1 agonist,0.744289969,0.219698525
+tox21-ar-mda-kb2-luc-antagonist-p2_Activity__t16__t0,AR antagonist,0.738798685,0.307113548
+tox21-pparg-bla-agonist-p1_Activity__t14__t0,PPARG agonist,0.734262355,0.141335431
+tox21-p450-3a4-p1_Activity__t29__t0,CYP3A4 activity,0.731386184,0.536949861
+tox21-nfkb-bla-agonist-p1_Activity__t30__t0,NFkB agonist,0.729486344,0.025674742
+tox21-ar-bla-antagonist-p1_Activity__t25__t0,AR antagonist,0.725622123,0.152626065
+tox21-are-bla-p1_Activity__t31__t0,ARE reporter,0.713342421,0.281173165
+tox21-er-bla-agonist-p2_Activity__t34__t0,ER agonist,0.706638194,0.126475096
+tox21-rar-agonist-p1_Activity__t20__t0,RAR agonist,0.706360402,0.266448908
+tox21-er-luc-bg1-4e2-agonist-p2_Activity__t9__t0,ER agonist,0.702876254,0.388707548
+tox21-er-luc-bg1-4e2-agonist-p4_Activity__t23__t0,ER agonist,0.677300341,0.030422708
+tox21-car-antagonist-p1_Activity__t43__t0,CAR antagonist,0.675608165,0.237722069
+tox21-gr-hela-bla-antagonist-p1_Activity__t22__t0,GR antagonist,0.668175914,0.135918543
+tox21-sbe-bla-agonist-p1_Activity__t3__t0,SMAD agonist,0.667207904,0.00825585
+tox21-p450-2c19-p1_Activity__t37__t0,CYP2C19 activity,0.664125426,0.563455189
+tox21-ahr-p1_Activity__t1__t0,AhR reporter,0.663134022,0.165864875
+tox21-erb-bla-p1_Activity__t27__t0,ER-beta reporter,0.661527966,0.032368777
+tox21-ache-p3_Activity__t45__t0,AChE activity,0.658397499,0.151914423
+tox21-ar-bla-agonist-p1_Activity__t26__t0,AR agonist,0.655975234,0.096166018
+tox21-aromatase-p1_Activity__t32__t0,Aromatase activity,0.653968506,0.159288472
+tox21-hdac-p1_Activity__t11__t0,HDAC activity,0.636114519,0.063349089
+tox21-ms-p53-p2_Activity__t19__t0,p53 reporter,0.618692013,0.026991492
+tox21-ms-p53-p1_Activity__t44__t0,p53 reporter,0.618307776,0.018969952
+tox21-tshr-wt-p1_Activity__t28__t0,TSHR wildtype,0.610525243,0.065026164
+tox21-ar-mda-kb2-luc-agonist-p3_Activity__t38__t0,AR agonist,0.564235034,0.034454048
+tox21-ar-mda-kb2-luc-agonist-p1_Activity__t10__t0,AR agonist,0.551345529,0.046783065

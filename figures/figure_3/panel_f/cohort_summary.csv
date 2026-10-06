@@ -1,0 +1,2 @@
+organism,n,nontoxic,toxic,auroc,average_precision,median_nontoxic,median_toxic,scores_exactly_0_2
+e_coli,228,112,116,0.6882697044334976,0.6937415526180265,0.11655214866666666,0.26602552166666665,0

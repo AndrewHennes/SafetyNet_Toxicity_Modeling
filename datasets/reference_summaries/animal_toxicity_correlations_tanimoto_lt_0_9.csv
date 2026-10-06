@@ -1,0 +1,60 @@
+LD50_Name,R^2,ρ
+mouse_intraperitoneal_LD50_(?log(mol/kg))_(?log(mol/kg)),,0.030787865519399226
+mammal (species unspecified)_intraperitoneal_LD50_(?log(mol/kg)),,0.04490781313944724
+guinea pig_intraperitoneal_LD50_(?log(mol/kg)),,0.24837876800274417
+rat_intraperitoneal_LD50_(?log(mol/kg)),,0.10613328822416361
+rabbit_intraperitoneal_LD50_(?log(mol/kg)),,0.2777855543113102
+mouse_intraperitoneal_LDLo_(?log(mol/kg)),,0.3288601930712992
+rat_intraperitoneal_LDLo_(?log(mol/kg)),,0.26916044607655354
+mouse_intravenous_LD50_(?log(mol/kg)),,0.06509122724639659
+guinea pig_intravenous_LD50_(?log(mol/kg)),,0.03330249768732655
+rat_intravenous_LD50_(?log(mol/kg)),,0.1511620448938364
+rabbit_intravenous_LD50_(?log(mol/kg)),,0.11129275947634473
+dog_intravenous_LD50_(?log(mol/kg)),,0.03533387423651918
+cat_intravenous_LD50_(?log(mol/kg)),,0.16062944710374455
+mouse_intravenous_LDLo_(?log(mol/kg)),,0.2563638892752817
+guinea pig_intravenous_LDLo_(?log(mol/kg)),,0.2048442064264849
+rat_intravenous_LDLo_(?log(mol/kg)),,0.20321354830206914
+rabbit_intravenous_LDLo_(?log(mol/kg)),,0.3034771000088715
+dog_intravenous_LDLo_(?log(mol/kg)),,0.26277832301008264
+cat_intravenous_LDLo_(?log(mol/kg)),,0.36598894478128646
+mouse_oral_LD50_(?log(mol/kg)),,0.03779648162700583
+mammal (species unspecified)_oral_LD50_(?log(mol/kg)),,0.15747695771946804
+guinea pig_oral_LD50_(?log(mol/kg)),,0.28573581747306215
+rat_oral_LD50_(?log(mol/kg)),,0.153106282769893
+rabbit_oral_LD50_(?log(mol/kg)),,0.2957735210950431
+dog_oral_LD50_(?log(mol/kg)),,0.046951835425391206
+cat_oral_LD50_(?log(mol/kg)),,0.13422372986289355
+bird - wild_oral_LD50_(?log(mol/kg)),,0.2211086262627366
+quail_oral_LD50_(?log(mol/kg)),,-0.009791625425891194
+duck_oral_LD50_(?log(mol/kg)),,-0.031246046805819102
+chicken_oral_LD50_(?log(mol/kg)),,0.07658416992910297
+mouse_oral_LDLo_(?log(mol/kg)),,0.09886143763760108
+rat_oral_LDLo_(?log(mol/kg)),,0.1080444827438281
+rabbit_oral_LDLo_(?log(mol/kg)),,0.3092507585305672
+dog_oral_LDLo_(?log(mol/kg)),,0.24630082306837048
+cat_oral_LDLo_(?log(mol/kg)),,0.2680731149066937
+man_oral_TDLo,,0.11514303210567754
+women_oral_TDLo,,0.3581550430675188
+human_oral_TDLo,,0.25411373851866326
+mouse_unreported_LD50_(?log(mol/kg)),,0.058797456337979094
+mammal (species unspecified)_unreported_LD50_(?log(mol/kg)),,0.08227822894778065
+rat_unreported_LD50_(?log(mol/kg)),,0.20284980142392636
+mouse_skin_LD50_(?log(mol/kg)),,-0.023890527901575545
+guinea pig_skin_LD50_(?log(mol/kg)),,0.20438998255935284
+rat_skin_LD50_(?log(mol/kg)),,0.08137882587316397
+rabbit_skin_LD50_(?log(mol/kg)),,0.2017173217994633
+rabbit_skin_LDLo_(?log(mol/kg)),,-0.039604267810810584
+mouse_subcutaneous_LD50_(?log(mol/kg)),,0.06492821545087012
+mammal (species unspecified)_subcutaneous_LD50_(?log(mol/kg)),,-0.10498261014420275
+guinea pig_subcutaneous_LD50_(?log(mol/kg)),,-0.034860081320258314
+rat_subcutaneous_LD50_(?log(mol/kg)),,0.10883586423349201
+rabbit_subcutaneous_LD50_(?log(mol/kg)),,-0.01079761258817146
+mouse_subcutaneous_LDLo_(?log(mol/kg)),,0.14747565713123292
+guinea pig_subcutaneous_LDLo_(?log(mol/kg)),,0.25636330342428126
+rat_subcutaneous_LDLo_(?log(mol/kg)),,0.2752954592577234
+rabbit_subcutaneous_LDLo_(?log(mol/kg)),,0.23088364215144438
+frog_subcutaneous_LDLo_(?log(mol/kg)),,0.481993006993007
+mouse_intramuscular_LD50_(?log(mol/kg)),,0.065908324290046
+rat_intramuscular_LD50_(?log(mol/kg)),,0.0519679696941855
+mouse_parenteral_LD50_(?log(mol/kg)),,-0.04547475436902437

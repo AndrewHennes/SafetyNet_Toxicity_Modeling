@@ -1,0 +1,11 @@
+{
+  "status": "recomputed_with_explicit_assumptions",
+  "panel": "b",
+  "libraries": [
+    "internal_100k",
+    "tox21"
+  ],
+  "coordinates": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/derived/chemical_space/cytotoxicity_tsne_coordinates.csv",
+  "analysis_manifest": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/derived/chemical_space/cytotoxicity_analysis_manifest.json",
+  "source_artwork_used": false
+}

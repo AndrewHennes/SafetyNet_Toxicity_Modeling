@@ -1,0 +1,32 @@
+{
+  "status": "partially_recomputed",
+  "missing_input": "FDA-approved molecular cohort",
+  "descriptor_provenance": {
+    "source_sha256": {
+      "internal_100k": "de4393c66ccae50140157165c847a8efddcbea3b777a5ddbb41e5a8757b181ee",
+      "tox21": "64f4da1eeaca5ca5ea8a8701714cc1b2b3b7306184d94b162f0ca37f97280997"
+    },
+    "source_files": {
+      "internal_100k": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/toxicity_datasets/safetynet_100k_cytotoxicity_dataset.csv",
+      "tox21": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/tox21/tox21_labels_and_safetynet_predictions.csv"
+    },
+    "rdkit_version": "2024.09.4",
+    "descriptor_policy": "raw_smiles_preserved_cx_separator_v2",
+    "cohorts": {
+      "internal_100k": {
+        "input_rows": 100352,
+        "invalid_smiles": 4,
+        "recovered_from_initial_cache": 72
+      },
+      "tox21": {
+        "input_rows": 7973,
+        "invalid_smiles": 0,
+        "recovered_from_initial_cache": 0
+      }
+    },
+    "format_repair": "Insert a missing space before the first CXSMILES pipe, preserving graph and extension metadata.",
+    "format_repair_rows": 72,
+    "kde": "scipy gaussian_kde, Scott bandwidth, all valid rows",
+    "limitations": "Supplied molecular cohorts; configured standardization and density settings."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "panel": "f",
+  "status": "blocked_missing_inputs",
+  "reason": "E. coli inputs: compound-level predictions, antibacterial measurements, three-cell cytotoxicity, and vertical-axis score definition.",
+  "plots_generated": false,
+  "artwork_values_used_as_analysis_inputs": false,
+  "reference_figure": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/figure.svg"
+}

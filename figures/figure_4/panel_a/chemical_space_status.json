@@ -1,0 +1,12 @@
+{
+  "status": "recomputed_with_explicit_assumptions",
+  "panel": "a",
+  "libraries": [
+    "internal_39k",
+    "ecbd",
+    "coadd"
+  ],
+  "coordinates": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/derived/chemical_space/antibacterial_tsne_coordinates.csv",
+  "analysis_manifest": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/derived/chemical_space/antibacterial_analysis_manifest.json",
+  "source_artwork_used": false
+}

@@ -1,0 +1,9 @@
+{
+  "regenerate.py": "shared/prepare.py",
+  "analysis/required_input_schema.json": "shared/required_input_schema.json",
+  "analysis/validation.json": "shared/validation.json",
+  "figure.svg": "figure.svg",
+  "source_preview.png": "source_preview.png",
+  "readme.md": "readme.md",
+  "missing_inputs.md": "missing_inputs.md"
+}

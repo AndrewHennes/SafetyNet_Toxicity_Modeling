@@ -1,0 +1,9 @@
+{
+  "primary_definition": "Pearson correlation of continuous growth inhibition",
+  "diagnostic_definition": "Pearson correlation of binary >80% inhibition hit labels",
+  "panel": "c",
+  "status": "recomputed_from_assay_measurements",
+  "shared_validation": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/shared/validation.json",
+  "cohort": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_4/shared/analysis_cohort.csv",
+  "source_sha256": "8e3771c13037061d233f3a650eb4db0300d622e0ec9be2ffd88ab0d5abd42d5c"
+}

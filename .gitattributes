@@ -1,0 +1,4 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+datasets/antibiotic_activity_datasets/coadd.csv filter=lfs diff=lfs merge=lfs -text
+datasets/external_validation/ecbd/ecbd_embeddings_and_ensemble_predictions.tsv filter=lfs diff=lfs merge=lfs -text

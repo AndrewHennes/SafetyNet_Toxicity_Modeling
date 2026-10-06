@@ -1,0 +1,33 @@
+{
+  "source_csv": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/antibiotic_activity_datasets/broad_39k.csv",
+  "source_sha256": "8e3771c13037061d233f3a650eb4db0300d622e0ec9be2ffd88ab0d5abd42d5c",
+  "source_rows": 39981,
+  "missing_assay_rows_excluded": 92,
+  "missing_unique_smiles": 91,
+  "complete_source_rows": 39889,
+  "complete_unique_raw_smiles": 39190,
+  "paper_compound_count_reference_only": 39267,
+  "raw_unique_smiles_including_missing": 39281,
+  "canonical_unique_smiles_including_missing": 39155,
+  "invalid_unique_raw_smiles": 1,
+  "rdkit_version": "2024.09.4",
+  "repeated_compounds_with_distinct_measurements": 1,
+  "source_flags_equal_recomputed_80_percent_rule": true,
+  "replicate_od_mean_max_absolute_errors": {
+    "AB": 5.000004854593953e-10,
+    "EC": 5.000002634147904e-10,
+    "KP": 5.000002634147904e-10,
+    "PA": 5.000002634147904e-10
+  },
+  "definition": "One raw-SMILES compound per row; exclude missing assays; average distinct reported inhibition measurements per endpoint; hit iff >80%.",
+  "normalization": "Supplied percent inhibition.",
+  "correlation_definition": "Primary: Pearson on continuous percent inhibition, as manuscript prose states. Binary Pearson is a separately labeled diagnostic of the figure title.",
+  "blocked_panels": {
+    "d": "Conceptual diagram, preserved only as source artwork.",
+    "e": "Virtual-library selection and ranking records.",
+    "f_g_h_i": "Prospective compound-level antibacterial and cytotoxicity measurements."
+  },
+  "panel_a": "Computed by the shared chemical-space pipeline using its recorded parameters.",
+  "no_artwork_values_used_in_plots": true,
+  "preparation_code_sha256": "0610a7d733da7872c1430c0e9ddd066b37d05698c87bd2cc0ef2f5de0e9247c7"
+}

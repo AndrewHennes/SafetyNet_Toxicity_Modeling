@@ -1,0 +1,54 @@
+{
+  "analysis/analysis_manifest.json": "shared/analysis_manifest.json",
+  "analysis/chemical_space_initial_svd.png": "panel_a/chemical_space_initial_svd.png",
+  "analysis/chemical_space_initial_svd.svg": "panel_a/chemical_space_initial_svd.svg",
+  "analysis/chemical_space_status.json": "panel_a/chemical_space_status.json",
+  "analysis/chemical_space_tsne.png": "panel_a/chemical_space_tsne.png",
+  "analysis/chemical_space_tsne.svg": "panel_a/chemical_space_tsne.svg",
+  "analysis/classification_metrics.csv": [
+    "panel_f/classification_metrics.csv",
+    "panel_g/classification_metrics.csv"
+  ],
+  "analysis/coadd_candidate_classification_audit.csv": "shared/coadd_candidate_classification_audit.csv",
+  "analysis/coadd_joined_antibacterial_facts.csv": "shared/coadd_joined_antibacterial_facts.csv",
+  "analysis/cohort_summary.csv": "shared/cohort_summary.csv",
+  "analysis/cohort_variant_audit.csv": "shared/cohort_variant_audit.csv",
+  "analysis/drh_candidate_identity_audit.csv": "shared/drh_candidate_identity_audit.csv",
+  "analysis/ecbd_version_hit_candidates_with_similarity.csv": "shared/ecbd_version_hit_candidates_with_similarity.csv",
+  "analysis/ecbd_version_label_novelty_sensitivity.csv": "shared/ecbd_version_label_novelty_sensitivity.csv",
+  "analysis/ecbd_version_similarity_manifest.json": "shared/ecbd_version_similarity_manifest.json",
+  "analysis/ecbd_version_variant_memberships.csv": "shared/ecbd_version_variant_memberships.csv",
+  "analysis/eligible_source_records.csv": "shared/eligible_source_records.csv",
+  "analysis/excluded_records.csv": "shared/excluded_records.csv",
+  "analysis/histogram_counts.csv": [
+    "panel_b/histogram_counts.csv",
+    "panel_c/histogram_counts.csv"
+  ],
+  "analysis/iteration_1_panels_b_to_g.png": "shared/iterations/iteration_1_panels_b_to_g.png",
+  "analysis/iteration_1_panels_b_to_g.svg": "shared/iterations/iteration_1_panels_b_to_g.svg",
+  "analysis/kde_values.csv": [
+    "panel_b/kde_values.csv",
+    "panel_c/kde_values.csv"
+  ],
+  "analysis/reconstructed_cohort.csv": "shared/reconstructed_cohort.csv",
+  "analysis/regenerated_panels_b_to_g.png": "shared/iterations/regenerated_panels_b_to_g.png",
+  "analysis/regenerated_panels_b_to_g.svg": "shared/iterations/regenerated_panels_b_to_g.svg",
+  "analysis/supplied_vs_recomputed_alerts.csv": "shared/supplied_vs_recomputed_alerts.csv",
+  "analysis/threshold_metrics.csv": [
+    "panel_d/threshold_metrics.csv",
+    "panel_e/threshold_metrics.csv"
+  ],
+  "analysis/validation_report.json": "shared/validation_report.json",
+  "regenerate.py": [
+    "figure_3.py",
+    "shared/analysis.py",
+    "panel_b/figure_3b.py",
+    "panel_c/figure_3c.py",
+    "panel_d/figure_3d.py",
+    "panel_e/figure_3e.py",
+    "panel_f/figure_3f.py",
+    "panel_g/figure_3g.py"
+  ],
+  "audit_ecbd_versions.py": "shared/audit_ecbd_versions.py",
+  "validate_analysis.py": "shared/validate_analysis.py"
+}

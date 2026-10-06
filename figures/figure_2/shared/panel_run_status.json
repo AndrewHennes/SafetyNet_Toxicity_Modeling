@@ -1,0 +1,139 @@
+{
+  "a": {
+    "panel": "a",
+    "status": "schematic_reference_only",
+    "details": "SafetyNet architecture schematic. The architecture diagram is available in figure.svg.",
+    "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+    "synthetic_or_summary_replay": false
+  },
+  "b": {
+    "panel": "b",
+    "status": "blocked_missing_raw_inputs",
+    "details": "Inputs: fold membership, baseline predictions, training configurations, and paired evaluation results.",
+    "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+    "synthetic_or_summary_replay": false
+  },
+  "c": {
+    "panel": "c",
+    "status": "blocked_missing_raw_inputs",
+    "details": "Inputs: external cohorts, labels, and each baseline and SafetyNet fold prediction set.",
+    "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+    "synthetic_or_summary_replay": false
+  },
+  "d": {
+    "panel": "d",
+    "status": "recomputed_from_rows",
+    "metrics": {
+      "n": 35964,
+      "positive_count": 322,
+      "prevalence": 0.008953397842286732,
+      "cutoff": 0.2,
+      "status": "evaluated",
+      "auroc": 0.9242126063151819,
+      "average_precision": 0.4037104012980193,
+      "pr_trapezoid_auc": 0.4029986542726158,
+      "tn": 33275,
+      "fp": 2367,
+      "fn": 81,
+      "tp": 241,
+      "mcc": 0.24772851231002085,
+      "f1": 0.1645051194539249,
+      "precision": 0.0924079754601227,
+      "balanced_accuracy": 0.8410183951448166,
+      "exact_score_cutoff_count": 0
+    },
+    "saved_ensemble": {
+      "input": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_embeddings_and_ensemble_predictions.tsv",
+      "sha256": "e6c65ab60db2a4539043f03bffa4c5d024ccb7dfc5f017044b6a471b73706f48",
+      "rows": 101097,
+      "members": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "member_count": 6,
+      "task_count": 3,
+      "stored_max_vs_max_of_task_means_max_abs_diff": 1.1102230246251565e-16,
+      "stored_max_vs_mean_of_task_maxima_max_abs_diff": 0.049022210000000066,
+      "interpretation": "Analysis uses saved ensemble members."
+    },
+    "shared_cohort": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/shared/ecbd/primary_ecbd_cohort.csv",
+    "source_figure_or_summary_values_used": false,
+    "limitation": "Evaluation inputs: cohort membership and confidence-band construction."
+  },
+  "e": {
+    "panel": "e",
+    "status": "recomputed_from_rows_and_structures",
+    "complete_cohort_rows": 35964,
+    "methods": [
+      "safetynet",
+      "glaxo",
+      "dundee",
+      "bms",
+      "brenk",
+      "surechembl",
+      "mlsmr",
+      "inpharmatica",
+      "lint"
+    ],
+    "shared_cohort": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/shared/ecbd/primary_ecbd_cohort.csv",
+    "source_figure_or_summary_values_used": false
+  },
+  "f": {
+    "panel": "f",
+    "status": "recomputed_from_rows",
+    "evaluable_assays": 42,
+    "primary_auroc_range": [
+      0.5729052159187982,
+      0.8851595201766983
+    ],
+    "source_figure_or_summary_values_used": false
+  },
+  "g": {
+    "panel": "g",
+    "status": "blocked_missing_raw_inputs",
+    "details": "Inputs: compound-level animal dose observations, species/routes, units, transformations, and SafetyNet predictions.",
+    "reference_artwork": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/figure.svg",
+    "synthetic_or_summary_replay": false
+  },
+  "h": {
+    "panel": "h",
+    "status": "recomputed_from_rows_and_structures",
+    "input_rows": 1477,
+    "primary_rows": 990,
+    "primary_positive_count": 46,
+    "primary_policy": "Computed Morgan radius2/2048-bit/achiral maximum similarity <=0.9; achiral Morgan fingerprint policy",
+    "safetynet_metrics": {
+      "n": 990,
+      "positive_count": 46,
+      "prevalence": 0.046464646464646465,
+      "cutoff": 0.2,
+      "status": "evaluated",
+      "auroc": 0.7160210943257186,
+      "average_precision": 0.0997962356727694,
+      "pr_trapezoid_auc": 0.09558682453574016,
+      "tn": 732,
+      "fp": 212,
+      "fn": 21,
+      "tp": 25,
+      "mcc": 0.15730788092570722,
+      "f1": 0.17667844522968199,
+      "precision": 0.10548523206751055,
+      "balanced_accuracy": 0.6594509948415623,
+      "exact_score_cutoff_count": 0,
+      "cohort": "clintox_proxy_similarity_le_0_9_chiral_False",
+      "method": "safetynet",
+      "score_or_flag": "max_of_three_task_scores",
+      "excluded_invalid_structure_or_label_score": 0,
+      "chirality": false,
+      "similarity_policy": "similarity_le_0_9",
+      "excluded_by_overlap_or_invalid_similarity": 487
+    },
+    "chiral_sensitivity_rows": 1158,
+    "chiral_sensitivity_positive_count": 66,
+    "source_figure_or_summary_values_used": false
+  }
+}

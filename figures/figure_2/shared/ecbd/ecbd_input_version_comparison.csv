@@ -1,0 +1,3 @@
+first,second,matching_rule,matched_rows,max_absolute_score_difference,mean_absolute_score_difference,fraction_scores_within_1e_6,paired_known_labels,label_disagreements
+ecbd_restricted,ecbd_merged,"Exact raw SMILES, unique in both input tables",26250,0.13841826299999999,0.002942274233980952,0.00030476190476190474,21672,275
+ecbd_restricted,ecbd_assay,"Exact raw SMILES, unique in both input tables",24651,0.13841829,0.00289758730757373,0.0003245304450123727,20283,759

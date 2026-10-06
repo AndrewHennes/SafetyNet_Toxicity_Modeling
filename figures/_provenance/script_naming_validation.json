@@ -1,0 +1,11 @@
+{
+  "renamed_panel_scripts": 35,
+  "renamed_figure_runners": 7,
+  "collection_runner": "generate_all_figures.py",
+  "full_workflow": "passed",
+  "working_directory": "/private/tmp",
+  "metric_tests_passed": 8,
+  "scientific_invariants": "passed",
+  "numeric_constants_unchanged": true,
+  "legacy_runner_paths_remaining": false
+}

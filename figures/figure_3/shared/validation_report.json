@@ -1,0 +1,13 @@
+{
+  "cc50_cases_passed": 20,
+  "empty_structure_cases_passed": 2,
+  "cxsmiles_spacing_cases_passed": 3,
+  "cohort_rows_checked": 338,
+  "panel_numeric_tables_match_molecular_analysis": true,
+  "independent_panel_outputs_checked": 6,
+  "cohort_unique_molecule_and_count_invariants": "passed",
+  "supplied_alert_flags_checked": 1183,
+  "all_supplied_alert_flags_agree": true,
+  "ecbd_sensitivity_rows_checked": 864,
+  "similarity_values_bounded": true
+}

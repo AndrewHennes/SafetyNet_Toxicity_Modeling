@@ -1,0 +1,3 @@
+panel,status,source,missing
+a,recomputed_from_molecular_labels_and_predictions,/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/tox21/tox21_labels_and_safetynet_predictions.csv,Similarity-reference identity and fingerprint settings require confirmation; selected cohort has 6040 rows
+b,blocked_raw_observations_absent,No compound-level animal toxicity table supplied,"Compound identity, species/route/endpoint, LD50/LDLo/TDLo measurement, concentration units, toxicity score, inclusion policy and target transformation"

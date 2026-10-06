@@ -1,0 +1,8 @@
+method,compared_rows,disagreements,supplied_positive,recomputed_positive
+glaxo,35964,0,445,445
+dundee,35964,0,6266,6266
+bms,35964,0,778,778
+surechembl,35964,0,2251,2251
+mlsmr,35964,0,13553,13553
+inpharmatica,35964,0,5076,5076
+lint,35964,1,3451,3452

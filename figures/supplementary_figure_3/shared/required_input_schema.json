@@ -1,0 +1,18 @@
+{
+  "file": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/drugbank/approved_systemic_antibiotics_and_antineoplastics.csv",
+  "required_columns": {
+    "compound_id": "Unique DrugBank identifier within each class",
+    "smiles": "Compound structure used for the predictions",
+    "drug_class": "systemic_antibiotic or antineoplastic",
+    "hepg2_score": "SafetyNet probability in [0,1]",
+    "hskmc_score": "SafetyNet probability in [0,1]",
+    "imr90_score": "SafetyNet probability in [0,1]"
+  },
+  "required_companion_metadata": [
+    "DrugBank release and approval/systemic-use/category curation rules",
+    "SafetyNet checkpoint identities, embedding version and score aggregation",
+    "Any compound exclusions or duplicate-resolution rules"
+  ],
+  "analysis_rule": "Maximum of three cell-line scores; safe if score <0.2; predicted toxic if score >=0.2.",
+  "histogram_rule": "Probability density; 20 equal bins over [0,1]. KDE uses Scott bandwidth if scores vary."
+}

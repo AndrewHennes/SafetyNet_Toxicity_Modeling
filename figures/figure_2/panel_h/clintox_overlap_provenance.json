@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "reference_sha256": "de4393c66ccae50140157165c847a8efddcbea3b777a5ddbb41e5a8757b181ee",
+    "query_sha256": "5f6d6daded34b5dbbfd06f394c09e8168bfb9ef328d4befb71d43e41528fd5ea",
+    "reference_column": "SMILES",
+    "query_column": "SMILES",
+    "radius": 2,
+    "fingerprint_bits": 2048,
+    "chirality_variants": [
+      true,
+      false
+    ],
+    "rdkit_version": "2024.09.4",
+    "molecule_policy": "Full submitted molecules; no salt stripping or neutralization.",
+    "format_repair": "Insert missing space before first CXSMILES pipe; preserve graph and extension metadata."
+  },
+  "reference_path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/toxicity_datasets/safetynet_100k_cytotoxicity_dataset.csv",
+  "reference_rows": 100352,
+  "unique_reference_strings": 100237,
+  "valid_unique_reference_molecules": 100233,
+  "invalid_unique_reference_structures": 4,
+  "repaired_unique_reference_structures": 72,
+  "invalid_query_structures": 0,
+  "caveat": "Configured overlap policy uses achiral Morgan fingerprints."
+}

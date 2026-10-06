@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.matplotlib_cache/
+.numba_cache/
+.pytest_cache/

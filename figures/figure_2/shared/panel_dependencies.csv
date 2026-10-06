@@ -1,0 +1,9 @@
+panel,status,inputs,missing
+a,schematic_reference_only,Illustrator artwork,No numerical analysis applies
+b,blocked,Internal training data available,"Fold membership, baseline predictions, training configurations, and fold evaluation outputs"
+c,blocked,External experimental and some SafetyNet predictions available,"Cohort, labels, and model prediction sets for each fold"
+d,recomputed_from_rows,"ECBD restricted labels, scores and stored similarity",Evaluation membership and confidence-band construction
+e,recomputed_from_rows_and_structures,Same ECBD cohort; RDKit structural catalogs,Confirmation of catalog versions and final evaluation cohort
+f,recomputed_from_rows,"Tox21 assay labels, three task predictions, stored similarity","Similarity reference, fingerprint settings and assay-category confirmation"
+g,blocked,Only precomputed animal endpoint summaries supplied,"Compound-level LD50/LDLo/TDLo observations, species/routes, prediction scores and transformations"
+h,recomputed_from_rows_and_structures,"ClinTox labels, scores, molecular structures, 100K reference and RDKit catalogs",Primary policy uses achiral Morgan similarity<=0.9

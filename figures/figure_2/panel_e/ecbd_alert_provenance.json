@@ -1,0 +1,19 @@
+{
+  "rdkit_version": "2024.09.4",
+  "catalogs": {
+    "glaxo": "CHEMBL_Glaxo",
+    "dundee": "CHEMBL_Dundee",
+    "bms": "CHEMBL_BMS",
+    "brenk": "BRENK",
+    "surechembl": "CHEMBL_SureChEMBL",
+    "mlsmr": "CHEMBL_MLSMR",
+    "inpharmatica": "CHEMBL_Inpharmatica",
+    "lint": "CHEMBL_LINT"
+  },
+  "structure_policy": "Full molecule including disconnected fragments; missing CXSMILES separator repaired, no salt stripping or neutralization.",
+  "input_rows": 35964,
+  "invalid_structure_rows": 0,
+  "deduplicated_for_computation_only": 35923,
+  "classification_rule": "At least one catalog match means a positive structural alert.",
+  "invalid_structure_policy": "Excluded from all methods in the corresponding filter comparison."
+}

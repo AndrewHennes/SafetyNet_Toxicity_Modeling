@@ -1,0 +1,35 @@
+{
+  "input_rows": 100352,
+  "artwork_rows": 100390,
+  "cutoff": 0.8,
+  "initial": {
+    "bin_count": 100,
+    "bin_width": 0.02,
+    "outside_display_range": {
+      "HepG2": 12,
+      "HSkMC": 36,
+      "IMR-90": 56
+    },
+    "histogram_maxima": {
+      "HepG2": 10858,
+      "HSkMC": 15778,
+      "IMR-90": 9362
+    }
+  },
+  "refined": {
+    "bin_count": 200,
+    "bin_width": 0.01,
+    "outside_display_range": {
+      "HepG2": 12,
+      "HSkMC": 36,
+      "IMR-90": 56
+    },
+    "histogram_maxima": {
+      "HepG2": 5777,
+      "HSkMC": 8313,
+      "IMR-90": 4705
+    }
+  },
+  "remaining_difference": "Input cohort: 100,352 rows. Reference cohort: 100,390 rows.",
+  "normalization": "Existing relative viability used directly; values outside 0\u20132 counted but not drawn."
+}

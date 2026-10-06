@@ -1,0 +1,20 @@
+{
+  "documents": [
+    {
+      "path": "/Users/asselism/Downloads/SafetyNet_NBT_Submission (1).pdf",
+      "bytes": 2297691,
+      "sha256": "9354775c466bb1e607ac91e1479ce6059933731a34d7eec92c9555792c476837"
+    },
+    {
+      "path": "/Users/asselism/Downloads/Figures_SafetyNet (2).docx",
+      "bytes": 10800250,
+      "sha256": "9adb0e829368d8119fe1b7d5d2ca94b11d5d8283edfd6fb86211a80251bb1274"
+    },
+    {
+      "path": "/Users/asselism/Downloads/SafetyNet-Figures-Final-v20 (3).ai",
+      "bytes": 55108753,
+      "sha256": "257f6ad058b9ec417810ad8f0483636cf623ab7ab144a0e6366363661c018e1d"
+    }
+  ],
+  "role": "Original publication references only; not numerical inputs to default scientific analyses."
+}

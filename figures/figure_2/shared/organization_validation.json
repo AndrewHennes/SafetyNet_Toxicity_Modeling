@@ -1,0 +1,49 @@
+{
+  "orchestrators_ran_from": "/private/tmp",
+  "scientific_tests_passed": 8,
+  "analysis_source_unchanged": true,
+  "standalone_panel_f_modified_unrelated_results": false,
+  "panel_specific_implementations": {
+    "d": "Local analysis orchestration and ROC/PR plotting",
+    "e": "Local alert and filter analysis orchestration",
+    "f": "Local Tox21 analysis orchestration and plotting",
+    "h": "Local ClinTox analysis and sensitivity orchestration"
+  },
+  "table_comparisons": [
+    {
+      "old": "figure_2/analysis/panel_d_roc_values.csv",
+      "new": "figure_2/panel_d/panel_d_roc_values.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "figure_2/analysis/panel_d_pr_values.csv",
+      "new": "figure_2/panel_d/panel_d_pr_values.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "figure_2/analysis/panel_e_ecbd_filter_metrics.csv",
+      "new": "figure_2/panel_e/panel_e_ecbd_filter_metrics.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "figure_2/analysis/panel_h_clintox_filter_metrics.csv",
+      "new": "figure_2/panel_h/panel_h_clintox_filter_metrics.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "figure_2/analysis/tox21_assay_metrics.csv",
+      "new": "figure_2/panel_f/tox21_assay_metrics.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "figure_2/analysis/ecbd_cohort_score_label_sensitivity.csv",
+      "new": "figure_2/shared/ecbd/ecbd_cohort_score_label_sensitivity.csv",
+      "exact_numeric_table_match": true
+    },
+    {
+      "old": "supplementary_figure_2/analysis/tox21_assay_metrics.csv",
+      "new": "supplementary_figure_2/panel_a/tox21_assay_metrics.csv",
+      "exact_numeric_table_match": true
+    }
+  ]
+}

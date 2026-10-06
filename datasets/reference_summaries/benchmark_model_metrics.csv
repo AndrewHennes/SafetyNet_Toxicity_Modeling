@@ -1,0 +1,61 @@
+context,model,cell,metric,mean,standard_deviation
+internal,MiniMol STL,HepG2,auROC,0.805,0.014
+internal,MiniMol STL,HSkMC,auROC,0.812,0.011
+internal,MiniMol STL,IMR-90,auROC,0.790,0.015
+internal,MiniMol STL,HepG2,auPRC,0.350,0.028
+internal,MiniMol STL,HSkMC,auPRC,0.340,0.032
+internal,MiniMol STL,IMR-90,auPRC,0.304,0.030
+internal,SafetyNet,HepG2,auROC,0.800,0.020
+internal,SafetyNet,HSkMC,auROC,0.811,0.007
+internal,SafetyNet,IMR-90,auROC,0.788,0.016
+internal,SafetyNet,HepG2,auPRC,0.343,0.047
+internal,SafetyNet,HSkMC,auPRC,0.346,0.026
+internal,SafetyNet,IMR-90,auPRC,0.312,0.033
+internal,XGBoost,HepG2,auROC,0.788,0.005
+internal,XGBoost,HSkMC,auROC,0.809,0.004
+internal,XGBoost,IMR-90,auROC,0.788,0.007
+internal,XGBoost,HepG2,auPRC,0.316,0.012
+internal,XGBoost,HSkMC,auPRC,0.333,0.013
+internal,XGBoost,IMR-90,auPRC,0.293,0.017
+internal,Chemprop,HepG2,auROC,0.780,0.007
+internal,Chemprop,HSkMC,auROC,0.794,0.007
+internal,Chemprop,IMR-90,auROC,0.775,0.006
+internal,Chemprop,HepG2,auPRC,0.301,0.018
+internal,Chemprop,HSkMC,auPRC,0.302,0.015
+internal,Chemprop,IMR-90,auPRC,0.273,0.013
+internal,Random Forest,HepG2,auROC,0.775,0.010
+internal,Random Forest,HSkMC,auROC,0.792,0.007
+internal,Random Forest,IMR-90,auROC,0.771,0.007
+internal,Random Forest,HepG2,auPRC,0.296,0.011
+internal,Random Forest,HSkMC,auPRC,0.308,0.016
+internal,Random Forest,IMR-90,auPRC,0.273,0.019
+internal,SMI-TED,HepG2,auROC,0.736,0.006
+internal,SMI-TED,HSkMC,auROC,0.762,0.005
+internal,SMI-TED,IMR-90,auROC,0.735,0.006
+internal,SMI-TED,HepG2,auPRC,0.219,0.010
+internal,SMI-TED,HSkMC,auPRC,0.237,0.010
+internal,SMI-TED,IMR-90,auPRC,0.191,0.008
+external,SafetyNet,HepG2,auROC,0.911,0.005
+external,SafetyNet,HEK293,auROC,0.737,0.012
+external,SafetyNet,HepG2,auPRC,0.467,0.014
+external,SafetyNet,HEK293,auPRC,0.259,0.011
+external,MiniMol STL,HepG2,auROC,0.902,0.005
+external,MiniMol STL,HEK293,auROC,0.723,0.013
+external,MiniMol STL,HepG2,auPRC,0.449,0.023
+external,MiniMol STL,HEK293,auPRC,0.241,0.017
+external,Chemprop,HepG2,auROC,0.850,0.006
+external,Chemprop,HEK293,auROC,0.656,0.021
+external,Chemprop,HepG2,auPRC,0.242,0.017
+external,Chemprop,HEK293,auPRC,0.182,0.009
+external,XGBoost,HepG2,auROC,0.843,0.006
+external,XGBoost,HEK293,auROC,0.620,0.021
+external,XGBoost,HepG2,auPRC,0.226,0.009
+external,XGBoost,HEK293,auPRC,0.148,0.015
+external,SMI-TED,HepG2,auROC,0.819,0.015
+external,SMI-TED,HEK293,auROC,0.586,0.013
+external,SMI-TED,HepG2,auPRC,0.211,0.012
+external,SMI-TED,HEK293,auPRC,0.126,0.011
+external,Random Forest,HepG2,auROC,0.791,0.007
+external,Random Forest,HEK293,auROC,0.590,0.012
+external,Random Forest,HepG2,auPRC,0.135,0.011
+external,Random Forest,HEK293,auPRC,0.124,0.011

@@ -1,0 +1,11 @@
+SMILES,Name
+CCO,ethanol_like
+CCN,ethylamine_like
+CCCC,butane_like
+c1ccccc1,benzene_like
+CC(=O)O,acetic_acid_like
+CCOC(=O)C,ethyl_acetate_like
+CCCN(CC)CC,triethylamine_like
+C1CCCCC1,cyclohexane_like
+CCOCC,diethyl_ether_like
+CC(Cl)Cl,dichloroethane_like

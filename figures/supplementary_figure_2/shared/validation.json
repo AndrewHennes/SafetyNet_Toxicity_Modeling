@@ -1,0 +1,15 @@
+{
+  "panel": "a",
+  "status": "recomputed_from_rows",
+  "workflow": "Raw assay-label and prediction-score analysis",
+  "precomputed_metric_or_artwork_values_read": false,
+  "recomputed_assays": 42,
+  "primary_auroc_range": [
+    0.5729052159187982,
+    0.8851595201766983
+  ],
+  "shared_calculation_library": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/figures/figure_2/shared/analysis.py",
+  "blocked_panels": [
+    "b"
+  ]
+}

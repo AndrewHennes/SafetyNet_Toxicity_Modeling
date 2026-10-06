@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "ecbd_restricted": "870038309bae174914dcbb6b3ae8c40e8b04452bc245a088e340164ecad77962",
+    "ecbd_merged": "d76f0330ff045f4787e8d71c9d3efd950b3e169807912479007ee7963ceda25a",
+    "ecbd_assay": "333cc9cf3d0109f7845b2e53b276309123ee7ee9f4bb516cbe6ad08f3909beb5"
+  },
+  "calculation_source_sha256": "f2097c87996736ad19c0d8e1e96207f3f1bb834bb6225c139cb233950d9ac7b2",
+  "cohort_rule": "native toxicity labels and maxsim_100K <=0.9"
+}

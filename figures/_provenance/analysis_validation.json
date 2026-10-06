@@ -1,0 +1,28 @@
+{
+  "figure_directories": 7,
+  "python_scripts_parsed": 54,
+  "svg_files_parsed": 41,
+  "dataset_hashes_verified": 27,
+  "compound_level_source_tables": 13,
+  "reference_summary_tables": 5,
+  "molecular_coordinates_recomputed": {
+    "cytotoxicity": 107918,
+    "antibacterial": 244359
+  },
+  "all_sources_under_datasets": true,
+  "original_source_contents_unchanged": false,
+  "chemical_coordinates_finite": true,
+  "tox21_42_assay_reference_max_absolute_error": 4.691429467129637e-10,
+  "artwork_redraw_scripts_in_active_pipeline": false,
+  "scientific_invariants": "passed",
+  "full_historical_reproduction": "See panel status files for analysis coverage.",
+  "source_schema_changes": [
+    {
+      "path": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_embeddings_and_ensemble_predictions.tsv",
+      "removed_columns": [
+        "Minimol_Representation"
+      ],
+      "remaining_values_unchanged": true
+    }
+  ]
+}

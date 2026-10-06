@@ -1,0 +1,5 @@
+source_row,smiles,reason
+14060,O=C(OC(C)(C)C)N1[C@]2([C@]([H])(CC1)N(CC2)C(OCC3=CC=CC=C3)=O)[H].[Relativestereochemistry],Invalid or unspecified molecular structure
+20318,NC1=C(C)C=C(C2=CC(C)=C(N)C(C)=C2)C=C1C.[x].Cl.Cl.O,Invalid or unspecified molecular structure
+79647,O=S(=O)(OCC1OC(OC2(COS(=O)(=O)O[AlH3](O)O)OC(COS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C2OS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C(OS(=O)(=O)O[AlH3](O)O)C1OS(=O)(=O)O[AlH3](O)O)O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O.O[AlH3](O)O,Invalid or unspecified molecular structure
+93687,C[C@H]1[C@H](C(N2)=NC(N(N=C3)C4CCOCC4)=C3C2=O)CNC1.[xHCl],Invalid or unspecified molecular structure

@@ -1,0 +1,31 @@
+{
+  "input": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/tox21/tox21_labels_and_safetynet_predictions.csv",
+  "sha256": "64f4da1eeaca5ca5ea8a8701714cc1b2b3b7306184d94b162f0ca37f97280997",
+  "source_rows": 7973,
+  "assay_columns": 46,
+  "evaluable_primary_assays": 42,
+  "primary_cohort_rows": 6040,
+  "exact_similarity_0_9": 0,
+  "missing_similarity": 2,
+  "invalid_similarity": 0,
+  "primary_similarity_rule": "max_tanimoto_to_reference <= 0.9",
+  "source_score_check_max_absolute_difference": 0.0,
+  "score_rule": "max of three supplied per-task ensemble mean scores",
+  "class_rule": "native binary assay labels; per-assay missing labels excluded",
+  "single_class_assays": [
+    "tox21-dt40-p1_Activity__t13__t0",
+    "tox21-err-p1_Activity__t2__t0",
+    "tox21-pgc-err-p1_Activity__t33__t0",
+    "tox21-rt-viability-hek293-p1_Activity__t36__t0"
+  ],
+  "duplicate_smiles_rows_retained": 0,
+  "metric_definitions": {
+    "auroc": "sklearn roc_auc_score",
+    "average_precision": "sklearn average_precision_score",
+    "pr_trapezoid_auc": "sklearn auc(recall, precision)"
+  },
+  "limitations": [
+    "Analysis uses the supplied similarity column.",
+    "This analysis evaluates saved prediction scores. Model training and fold assignment are separate inputs."
+  ]
+}

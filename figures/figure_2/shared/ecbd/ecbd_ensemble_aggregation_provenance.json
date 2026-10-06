@@ -1,0 +1,18 @@
+{
+  "input": "/Users/asselism/Desktop/Collins_Lab/Repositories/safetynet-private/datasets/external_validation/ecbd/ecbd_embeddings_and_ensemble_predictions.tsv",
+  "sha256": "e6c65ab60db2a4539043f03bffa4c5d024ccb7dfc5f017044b6a471b73706f48",
+  "rows": 101097,
+  "members": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "member_count": 6,
+  "task_count": 3,
+  "stored_max_vs_max_of_task_means_max_abs_diff": 1.1102230246251565e-16,
+  "stored_max_vs_mean_of_task_maxima_max_abs_diff": 0.049022210000000066,
+  "interpretation": "Analysis uses saved ensemble members."
+}
